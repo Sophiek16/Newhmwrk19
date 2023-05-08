@@ -1,0 +1,181 @@
+body {
+    font-family: 'Raleway', sans-serif;}
+
+</style>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+<!DOCTYPE html>
+
+<title>Sophie Koumoudouros</title>
+<style>
+
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+  
+    .hero-image {
+        background-image: url("./images/IMG_1643\ 1.png");
+        height: 600px;
+        width: 1550px;
+        padding: 25px; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(116, 198, 236);
+        font-size: 35px;
+       
+    }
+    
+    nav {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        padding: 1%; 
+        opacity: 100%;
+
+
+    }
+    
+    nav a {
+        float: left;
+        color: rgb(116, 198, 236);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    nav img {
+display: block;
+margin: auto;
+max-width: 100%;
+height: auto;
+}
+
+    
+    nav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    header {
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+height: 70px; /* set the height of the header as per your design */
+/* set the background color of the header as per your design */
+z-index: 1;
+
+
+.logo-container {
+position: absolute;
+top: 100%;
+transform: translateY(-50%);
+right: 50px; /* add some spacing between the logo and the edge of the screen */
+}
+
+.logo {
+max-height: 100%; /* ensure the logo doesn't exceed the height of the header */
+width: 50%;
+}
+
+.footer-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-container div {
+    margin: 10px;
+}
+
+.email-button button {
+    background-color: #F3A409;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.resume-button button {
+    background-color: #F3A409;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.linkedin-button button {
+    background-color: #F3A409;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.h1 {
+    position: center;
+}
+  
+#id CS {
+    position: center;
+}
+
+
+
+
+<style>
+    /* Rest of your existing styles */
+
+    /* Media query for max width of 600px */
+    @media (max-width: 600px) {
+        .hero-image {
+            height: 300px;
+            width: 100%;
+            background-size: contain;
+            padding: 10px;
+        }
+        .hero-text {
+            top: 50%;
+            font-size: 25px;
+        }
+        nav {
+            padding: 1% 5%;
+        }
+        nav a {
+            padding: 8px 10px;
+            font-size: 14px;
+        }
+        header {
+            height: 50px;
+        }
+        .logo {
+            width: 40%;
+        }
+    }
+</style>
